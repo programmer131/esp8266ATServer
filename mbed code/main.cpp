@@ -166,7 +166,7 @@ int main(){
  
 
     char someArray[150];
-	//Replace thingspeak channel id with your channel's id
+	//use your thingspeak channel's Write api key
 	sprintf(someArray,"GET /update?api_key=ZAFGRRPMMEMXST4P&field2=%s\r\n\r\n",serverIp);
 	sendDataToThingSpeak(someArray);
     debug.printf("Server IP is %s\n",serverIp);
@@ -178,7 +178,7 @@ int main(){
         {
         	t.reset();//reset timer
         	//now send temperature value to thingspeak
-			//Replace thingspeak channel id with your channel's id
+			//use your thingspeak channel's Write api key
         	sprintf(someArray,"GET /update?api_key=ZAFGRRPMMEMXST4P&field1=%.2f\r\n\r\n",((tempSensor*3.3)-0.500)*100.0);
 			sendDataToThingSpeak(someArray);		    
 			debug.printf("temperature sent to thingspeak\n");
