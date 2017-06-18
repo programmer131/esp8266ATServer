@@ -1,5 +1,5 @@
-//send to esp fixed
-//sprint removed
+//Project created by Farrukh Hussain
+//email id: programmer131@gmail.com
 
 /****this buffer stores data received from ESP****/
 #define BUFFER_SIZE 1500
