@@ -1,1 +1,3 @@
 compile PIC code with mikroC pro for PIC
+there is much easy and simple way to do same task, 
+program esp8266 separately from Arduino IDE and then use serial communication to send receive data from PIC microcontroller to/from ESP8266, 
