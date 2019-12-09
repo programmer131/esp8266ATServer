@@ -1,3 +1,7 @@
+# update 
+AT commands are almost obsolete, just program ESP8266 separately from Arduino IDE and then use serial communication for interfacing, may utilize JSON format to send/receive data from ESP8266. here I programmed ESP8266 and Arduino UNO separately and used JSON format to communicate between two microcontrollers via UART, find example code in video description.
+https://youtu.be/Rng7D0koDhM
+
 # esp8266ATServer
 Objective was to write ESP8266 interfacing code that should be able to work with any microcontroller and any C/C++ compiler.
 Speed was of prime importance, I've tested several mbed examples for ESP8266, all work too slow, is hard to run real server with available libraries, so I've written my own interrupt based functions. 
