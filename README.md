@@ -1,6 +1,11 @@
 # update 
-AT commands are almost obsolete, just program ESP8266 separately from Arduino IDE and then use serial communication for interfacing, may utilize JSON format to send/receive data from ESP8266. here I programmed ESP8266 and Arduino UNO separately and used JSON format to communicate between two microcontrollers via UART, find example code in video description.
-https://youtu.be/Rng7D0koDhM
+AT commands are almost obsolete, just program ESP8266 separately from Arduino IDE and then use serial communication for interfacing, may utilize JSON format to send/receive data from ESP8266.  
+Below are few examples where I connected ESP8266 to Arduino/PIC/... and programmed external controller to accept JSON formatted data
+* Linux CPU Frequency meter ESP-01 + Arduino UNO https://youtu.be/kL3eR1ML2SU
+* Stepper motor angle control from ESP8266 + Arduino https://youtu.be/Rng7D0koDhM
+* COVID-19 tracker ESP-01+Arduino UNO https://youtu.be/YlCtPTCAl0U
+* ESP8266 + PIC18 programmed in mikroC, no AT commands, JSON parser needs improvements but works https://youtu.be/jDdEQywCYaY
+* ESP8266 + Arduino UNO, proteus simulation, no AT commands: https://youtu.be/naSdcrKKYLY
 
 # esp8266ATServer
 Objective was to write ESP8266 interfacing code that should be able to work with any microcontroller and any C/C++ compiler.
