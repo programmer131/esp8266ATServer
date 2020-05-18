@@ -20,5 +20,5 @@ https://youtu.be/FOXCza6HQII
 Interfacing ESP8266 with PIC18
 https://youtu.be/F53VvpxJuWk
 
-Complete course in progress, few tutorials uploaded already, 
+Here are few basics how I write this code, 
 https://www.youtube.com/watch?v=QVhWVu8NnZc&list=PLl7pvqnJQnZCON2TmYFSuAKT38ztHoK86
